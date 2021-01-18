@@ -1,0 +1,10 @@
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Entities\bin\Debug\KütüphaneProgramı.Entities.dll
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Entities\bin\Debug\KütüphaneProgramı.Entities.pdb
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Entities\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Entities\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Entities\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Entities\obj\Debug\KütüphaneProgramı.Entities.csprojAssemblyReference.cache
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Entities\obj\Debug\KütüphaneProgramı.Entities.csproj.CoreCompileInputs.cache
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Entities\obj\Debug\KütüphaneProgramı.Entities.csproj.CopyComplete
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Entities\obj\Debug\KütüphaneProgramı.Entities.dll
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Entities\obj\Debug\KütüphaneProgramı.Entities.pdb

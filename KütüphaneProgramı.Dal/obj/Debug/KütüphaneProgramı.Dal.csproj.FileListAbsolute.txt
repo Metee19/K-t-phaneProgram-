@@ -1,0 +1,12 @@
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\bin\Debug\KütüphaneProgramı.Dal.dll
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\bin\Debug\KütüphaneProgramı.Dal.pdb
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\bin\Debug\KütüphaneProgramı.Entities.dll
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\bin\Debug\KütüphaneProgramı.Entities.pdb
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\obj\Debug\KütüphaneProgramı.Dal.csprojAssemblyReference.cache
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\obj\Debug\KütüphaneProgramı.Dal.csproj.CoreCompileInputs.cache
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\obj\Debug\KütüphaneProgramı.Dal.csproj.CopyComplete
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\obj\Debug\KütüphaneProgramı.Dal.dll
+C:\Users\meteh\Documents\KütüphaneProgramı\KütüphaneProgramı.Dal\obj\Debug\KütüphaneProgramı.Dal.pdb

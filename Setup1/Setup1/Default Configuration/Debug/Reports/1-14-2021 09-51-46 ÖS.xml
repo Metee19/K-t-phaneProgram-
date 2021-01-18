@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="C:\Program Files (x86)\InstallShield\2020\Support\0409\buildreport.xsl"?>
+<BuildReport ProductName="Kütüphane Programı" ProductVersion="1.00.0000" Built="1-14-2021 09-51-46 ÖS" Config="Default Configuration" Media="Debug" Uncompressed="0.00 MB">
+  <Features>
+    <Feature Title="DefaultFeature">DefaultFeature</Feature>
+  </Features>
+  <Components>
+    <Component x64="32">AllOtherFiles</Component>
+    <Component x64="32" KeyPath="File.d">Component.dll</Component>
+    <Component x64="32" KeyPath="File.dll">Component.dll1</Component>
+    <Component x64="32" KeyPath="File.d1">Component.dll2</Component>
+    <Component x64="32" KeyPath="File.exe">Component.exe</Component>
+    <Component x64="32">DefaultComponent</Component>
+  </Components>
+  <Prerequisites />
+  <MergeModules />
+  <DynamicLinks />
+  <Files>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]Metehan Ceyhan\Kütüphane Programı" Component="Component.exe" Modified="3.01.2021 21:14:04" Size="71168" Version="1.0.0.0">KütüphaneProgramı.exe</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]Metehan Ceyhan\Kütüphane Programı" Component="Component.dll2" Modified="2.01.2021 16:58:44" Size="7680" Version="1.0.0.0">KütüphaneProgramı.Entities.dll</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]Metehan Ceyhan\Kütüphane Programı" Component="Component.dll1" Modified="2.01.2021 22:47:41" Size="8704" Version="1.0.0.0">KütüphaneProgramı.Dal.dll</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]Metehan Ceyhan\Kütüphane Programı" Component="Component.dll" Modified="2.01.2021 22:47:43" Size="6144" Version="1.0.0.0">KütüphaneProgramı.Business.dll</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]Metehan Ceyhan\Kütüphane Programı" Component="AllOtherFiles" Modified="3.01.2021 21:14:04" Size="161280" Version="">KütüphaneProgramı.pdb</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]Metehan Ceyhan\Kütüphane Programı" Component="AllOtherFiles" Modified="27.12.2020 18:31:30" Size="554" Version="">KütüphaneProgramı.exe.config</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]Metehan Ceyhan\Kütüphane Programı" Component="AllOtherFiles" Modified="2.01.2021 16:58:44" Size="24064" Version="">KütüphaneProgramı.Entities.pdb</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]Metehan Ceyhan\Kütüphane Programı" Component="AllOtherFiles" Modified="2.01.2021 22:47:41" Size="24064" Version="">KütüphaneProgramı.Dal.pdb</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]Metehan Ceyhan\Kütüphane Programı" Component="AllOtherFiles" Modified="2.01.2021 22:47:43" Size="22016" Version="">KütüphaneProgramı.Business.pdb</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]Metehan Ceyhan\Kütüphane Programı" Component="AllOtherFiles" Modified="8.01.2021 01:13:29" Size="1425408" Version="">KütüphaneProgramı.accdb</File>
+  </Files>
+</BuildReport>

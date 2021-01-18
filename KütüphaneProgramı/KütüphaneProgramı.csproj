@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41B98075-ADE8-4A5B-A812-76CC6D8378B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KütüphaneProgramı</RootNamespace>
+    <AssemblyName>KütüphaneProgramı</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app1.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapBilgileriGoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapBilgileriGoster.Designer.cs">
+      <DependentUpon>KitapBilgileriGoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapEkle.Designer.cs">
+      <DependentUpon>KitapEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapListele.Designer.cs">
+      <DependentUpon>KitapListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapTeslimEt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapTeslimEt.Designer.cs">
+      <DependentUpon>KitapTeslimEt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KütüphaneProgramıDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KütüphaneProgramıDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OgrEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrEkle.Designer.cs">
+      <DependentUpon>OgrEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrListele.Designer.cs">
+      <DependentUpon>OgrListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ÖgrenciAldiklariListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÖgrenciAldiklariListele.Designer.cs">
+      <DependentUpon>ÖgrenciAldiklariListele.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapBilgileriGoster.resx">
+      <DependentUpon>KitapBilgileriGoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapEkle.resx">
+      <DependentUpon>KitapEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapListele.resx">
+      <DependentUpon>KitapListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapTeslimEt.resx">
+      <DependentUpon>KitapTeslimEt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrEkle.resx">
+      <DependentUpon>OgrEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrListele.resx">
+      <DependentUpon>OgrListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ÖgrenciAldiklariListele.resx">
+      <DependentUpon>ÖgrenciAldiklariListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="app1.manifest" />
+    <None Include="KütüphaneProgramıDataSet.xsc">
+      <DependentUpon>KütüphaneProgramıDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KütüphaneProgramıDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KütüphaneProgramıDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KütüphaneProgramıDataSet.xss">
+      <DependentUpon>KütüphaneProgramıDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KütüphaneProgramı.Business\KütüphaneProgramı.Business.csproj">
+      <Project>{1b286a43-7162-4990-81a7-eb9ffe0736cd}</Project>
+      <Name>KütüphaneProgramı.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KütüphaneProgramı.Dal\KütüphaneProgramı.Dal.csproj">
+      <Project>{039ae762-2e16-4a51-b4a7-ba4c212b6bc8}</Project>
+      <Name>KütüphaneProgramı.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KütüphaneProgramı.Entities\KütüphaneProgramı.Entities.csproj">
+      <Project>{8dea2f20-9d66-4126-a0a8-318d6fd60bf4}</Project>
+      <Name>KütüphaneProgramı.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="KütüphaneProgramı.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ISAPPSERVICESLib">
+      <Guid>{75CED9E3-9844-437A-B867-931011B442DC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="IsmAutoLib">
+      <Guid>{E0AF30E6-DE3A-452A-B4E5-1589FC7E0C95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ISMMUpdaterLib">
+      <Guid>{D9CDFBD1-5D35-4A83-9BAC-DA352C9AE868}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBA">
+      <Guid>{000204EF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>9</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
